@@ -1,0 +1,156 @@
+body,td,th {
+	font-size: 14px;
+	color: #666666;
+}
+body {
+	background: url(../images/bg.png) top center no-repeat;
+	margin-left: 0px;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.textbox{height:22px;line-height:22px;color:#555;border:#E4E4E4 1px solid;}
+.button{border-color:#FFD275;margin-right:1em;color:#886600;background:#FFD680;border-width:1px;cursor:pointer;padding:.1em 1em;*padding:0 1em;font-size:9pt; line-height:130%; overflow:visible;}
+
+.div100{ float:left; width:100px; line-height:22px;}
+.dis{ display:none}
+.tit14b{ font-size:14px; font-weight:bold; color:#003399}
+.green{ color:#006600}
+.titr{ background:url(../images/titb_c.jpg); height:25px; padding-left:30px; font-size:14px; font-weight:bold; color:#003399; line-height:25px}
+.titr a:link,.titr a:visited{font-size:12px; color:#990033; margin-left:109px; font-weight:normal}
+
+#t{ float:left; width:70px; height:22px; line-height:22px; background:#FEEAC0; border:1px solid #993300; text-align:center; font-size:12px; margin:10px 0px 0px 6px }
+#t a:link,#t a:visited{ color:#993300}
+.bororg{ border:#dbdbdb 1px solid}
+.titl{ background:url(../images/titbg.jpg); height:26px; padding-left:28px; font-size:14px; font-weight:bold; color:#003399; line-height:26px}
+.titl a:link,.titl a:visited{font-size:12px; color:#990033; margin-left:180px; font-weight:normal}
+.mar7{ margin-top:7px}
+.pad4{ padding:10px 8px; line-height:25px}
+.bordb4{ border:1px solid #dbdbdb}
+.bordb4d{ border:1px dashed #006699}
+
+.dh{ font-size:14px; line-height:20px; color:#FFFFFF;font-weight:bold; }
+.dh a:link,.dh a:visited{color:#FFFFFF}
+.dh a:hover{ color:#FFff00}
+
+a.dblue:link,a.dblue:visited{
+COLOR: #004d79;
+}
+a.dblue:hover{
+COLOR: #ff0000;
+}
+.dblue{color:#004d79}
+
+a.red:link,a.red:visited{
+COLOR: #ff0000;
+}
+a.red:hover{COLOR: #0000ff;}
+.red{ color:#FF0000}
+
+a.org:link,a.org:visited{
+COLOR:#FF6600;
+}
+a.org:hover{
+COLOR: #ff0000;
+}
+.org{color:#ff9900}
+
+a.black:link,a.black:visited{
+COLOR:#000000;
+}
+a.black:hover{
+COLOR: #0000ff;
+}
+.black{color:#000000}
+
+
+a.blue:link,a.blue:visited{
+COLOR: #0000ff;
+}
+a.blue:hover{
+COLOR: #ff0000;
+}
+.blue{color:#0000ff}
+
+
+.gun{ font-size:13px;  color:#003399}
+.gun a:link,.gun a:visited{color:#003399}
+.gun a:hover{ color:#FF6600}
+
+.s12{ font-size:12px;}
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+a:hover {
+	text-decoration: underline;
+	color: #003399;
+}
+a:active {
+	text-decoration: none;
+	color: #003399;
+}
+
+.blk_29 {PADDING-TOP: 10px;	PADDING-BOTTOM: 10px; OVERFLOW: hidden;   POSITION: relative;width:957px;}
+.blk_29 .LeftBotton {	BACKGROUND: url(../images/sleft.gif) no-repeat 0px 0px; LEFT: 5px; FLOAT: left; WIDTH: 11px; CURSOR: pointer; POSITION: absolute; TOP: 10px; HEIGHT: 230px}
+.blk_29 .RightBotton {	RIGHT: 5px; BACKGROUND: url(../images/sleft.gif) no-repeat -11px 0px; FLOAT: right; WIDTH: 11px; CURSOR: pointer; POSITION: absolute; TOP: 10px; HEIGHT: 230px}
+.blk_29 .Cont {	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 888px; PADDING-TOP: 5px}
+.blk_29 .box {	FLOAT: left; WIDTH: 182px; TEXT-ALIGN: center}
+.blk_29 .box IMG {	 PADDING: 1px;  DISPLAY: block;BACKGROUND: #fff;  MARGIN: 0px auto; border:1px solid #C4E1FF }
+.blk_29 .box A:hover IMG {	BORDER-RIGHT: #5385cc 1px solid; BORDER-TOP: #5385cc 1px solid; BORDER-LEFT: #5385cc 1px solid; BORDER-BOTTOM: #5385cc 1px solid}
+.blk_29 .box P {	MARGIN: 6px auto 0px; WIDTH: 170px; LINE-HEIGHT: 18px;color:#333; font-size:12px;}
+
+
+.file_box{
+    max-width: 180px;
+    overflow: hidden;
+}
+
+.file_box input{
+    width: 110px;
+}
+
+.contribute_submit{
+    display: inline-block;
+    margin: 0 auto;
+    height: 32px;
+    width: 95px;
+    background-image: url('../images/tj.jpg');
+    cursor: pointer;
+}
+
+.per_input {
+    max-width: 100%;
+}
+.per_input input#contribute_file{
+    display: inline-block;
+    width: 180px;
+}
+
+.per_input input.btn_file_action{
+    display: inline-block;
+}
+
+#contribute_form input.error{
+    border: 1px #FF6600 solid;
+}
+
+.gradient{
+	background: -moz-linear-gradient(top, #EF6D7D 0%, #D3281A 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EF6D7D), color-stop(100%,#D3281A));
+	background: -webkit-linear-gradient(top, #EF6D7D 0%,#D3281A 100%);
+	background: -o-linear-gradient(top, #EF6D7D 0%,#D3281A 100%);
+	background: -ms-linear-gradient(top, #EF6D7D 0%,#D3281A 100%);
+	background: linear-gradient(to bottom, #EF6D7D 0%,#D3281A 100%);
+}
+a.line{
+	display: inline-block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: 100%;
+}
